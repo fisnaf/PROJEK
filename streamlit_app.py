@@ -23,5 +23,5 @@ def main():
             st.write(f"Kadar Cn: {kadar_cn:.6f} g/g")
             st.write(f"Kadar Cn: {kadar_cn_ppm:.2f} ppm")
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     main()
